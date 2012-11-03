@@ -10,9 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Logging all of your mistakes</description>
     <tags>logging</tags>
-    <dependencies>
-      <dependency id="FubuTestingSupport" version="0.9.9.205" />
-    </dependencies>
+    <dependencies />
   </metadata>
   <files>
     <file src="..\..\src\Foilr\bin\release\Foilr.*" target="lib\net40" />
