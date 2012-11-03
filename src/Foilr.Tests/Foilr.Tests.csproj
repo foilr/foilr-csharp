@@ -67,7 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="creating_a_record_from_an_exception.cs" />
-    <Compile Include="debugging.cs" />
     <Compile Include="ExceptionRecordTester.cs" />
     <Compile Include="FoilrServiceTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
