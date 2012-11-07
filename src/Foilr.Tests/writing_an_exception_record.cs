@@ -82,6 +82,19 @@ namespace Foilr.Tests
 		}
 
 		[Test]
+		public void writes_statusCode_if_not_null()
+		{
+			theRecord.WebLog.StatusCode = 404;
+			theValues["statusCode"].ShouldEqual(theRecord.WebLog.StatusCode);
+		}
+
+		[Test]
+		public void no_statusCode_if_empty()
+		{
+			theValues.ContainsKey("statusCode").ShouldBeFalse();
+		}
+
+		[Test]
 		public void writes_server_if_not_empty()
 		{
 			theRecord.WebLog.ServerIdentifier = "node1";
