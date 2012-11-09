@@ -21,12 +21,12 @@ namespace Foilr.Tests
 		}
 
 		[Test]
-		public void writes_the_exception_type()
+		public void writes_the_errorType_type()
 		{
-			theValues["exceptionType"].ShouldEqual("server");
+			theValues["errorType"].ShouldEqual("server");
 
 			theRecord.Origin = ExceptionOrigin.Client;
-			theValues["exceptionType"].ShouldEqual("javascript");
+			theValues["errorType"].ShouldEqual("javascript");
 		}
 
 		[Test]

@@ -4,7 +4,7 @@
 	{
 		public FoilrSettings()
 		{
-			ServiceUrl = "http://api.foilr.com/exception";
+			ServiceUrl = "http://api.foilr.com/error";
 		}
 
 		public string ServiceUrl { get; set; }

@@ -13,7 +13,7 @@ namespace Foilr
 			WebLog = new WebExceptionLog();
 		}
 
-		[Alias("exceptionType")]
+		[Alias("errorType")]
 		public ExceptionOrigin Origin { get; set; }
 
 		public string File { get; set; }
